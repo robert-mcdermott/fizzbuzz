@@ -26,7 +26,6 @@ func fizzBuzz(num int) []string {
 	res := []string{}
 	for i := 1; i <= num; i++ {
 		t := ""
-		//fmt.Println(i)
 		if i%3 == 0 {
 			t += "Fizz"
 		}
